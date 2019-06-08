@@ -5,7 +5,7 @@ from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor, InfraredSensor
 from pybricks.parameters import (Port, Stop, Direction, Button, Color, SoundFile, ImageFile, Align)
 from pybricks.tools import print, wait, StopWatch
 from pybricks.robotics import DriveBase
-from ev3dev2.motor import MoveTank, OUTPUT_A, OUTPUT_B, MediumMotor
+from ev3dev2.motor import MoveTank, OUTPUT_A, OUTPUT_B
 
 # Write your program here
 brick.sound.file(SoundFile.HELLO)
