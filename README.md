@@ -8,13 +8,13 @@
 
 ## 8.6.2019
 We are using [EV3 Python manual](https://sites.google.com/site/ev3devpython/learn_ev3_python/using-motors) as a useful resource.
-We have finally removed the old soundbyte files from the eevee brick
-We able to incorporated the infrared proximity sensor to the eevee chassis
-After a myriad of trial-and-error test runs we were able to get the the eevee robot to react and respond to obstacles. 
+We have finally removed the old soundbyte files from the ev3 brick.
+We were able to incorporate the infrared proximity sensor to the eevee chassis.
+After a myriad of trial-and-error test runs, we were able to get the the eevee robot to react and respond to obstacles. 
 
 Notes: Proximity of 40 is 30cm, the ev3 brick needs to be connected and visual code rebooted to make connection. 
 
-Suggestions have been made to incorporate the pressure sensor for a "Secondary protocol program"  
+Suggestions have been made to incorporate the pressure sensor for a "Secondary protocol program".  
 
 ## 26.5.2019
 Both participants are at an equipoise with their python course
