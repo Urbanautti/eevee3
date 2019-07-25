@@ -4,7 +4,19 @@
 
 * We burned first set of batteries on 8.6.2019, expenses even to both parties.
 * Second set of batteries now in use, cost by Zeick. (It's quite frustrating how quickly the voltage drops 😢)
+* Current set of batteries (as of 26.07.2019) is still functional)
 * Next set of batteries will be provided by Urbanautti.
+
+
+## 25.7.2019
+
+We ran a successful trial with the EV3 color sensor. 
+We removed the INCEPTION soundbyte file(at last). 
+The trial run using the color sensor was measuring the levels of light intensity.
+FURTHER NOTE! LEST WE FORGET! The procedure for printing the data on the VSC terminal panel requires:
+from sys import stderr
+and juxtaposed to print function WRITE , end=' ', file = stderr
+ONE MORE THING! When check EV3 page for instructions make sure you have the instruction for the MATCHING version of python (https://sites.google.com/site/ev3devpython/learn_ev3_python/using-sensors)
 
 ## 8.6.2019
 We are using [EV3 Python manual](https://sites.google.com/site/ev3devpython/learn_ev3_python/using-motors) as a useful resource.
