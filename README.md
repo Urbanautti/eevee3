@@ -10,9 +10,11 @@
 
 ## 25-26.7.2019
 
-We ran a successful trial with the EV3 color sensor. We removed the [Inception](https://www.imdb.com/title/tt1375666/) soundbyte file from the working directory (at last), since it was being again and again reuploaded to the brick. 
+We ran a successful trial with the EV3 color sensor in COL-REFLECT mode. We removed the [Inception](https://www.imdb.com/title/tt1375666/) soundbyte file from the working directory (at last), since it was being again and again reuploaded to the brick. 
 
 The trial run using the color sensor was measuring the levels of light intensity correctly. The device returns a number 0-100 corresponding to the percentage of light reflected back to detector. We got around 98 on shiny yellow/white surface, 80 on nonshiny yellow/white surface and 20 on shiny black surface.
+
+During the next part, we will test the COL-AMBIENT and COL-COLOR modes of the sensor.
 
 **NOTE! LEST WE FORGET!** The procedure for printing the data on the VSC terminal panel requires we specify the output as [standard error stream](https://en.wikipedia.org/wiki/Standard_streams), or stderr in short. This is achieved by
 
