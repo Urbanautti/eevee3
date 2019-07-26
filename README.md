@@ -14,7 +14,7 @@ We ran a successful trial with the EV3 color sensor. We removed the [Inception](
 
 The trial run using the color sensor was measuring the levels of light intensity correctly. The device returns a number 0-100 corresponding to the percentage of light reflected back to detector. We got around 98 on shiny yellow/white surface, 80 on nonshiny yellow/white surface and 20 on shiny black surface.
 
-*NOTE! LEST WE FORGET!* The procedure for printing the data on the VSC terminal panel requires we specify the output as [standard error stream](https://en.wikipedia.org/wiki/Standard_streams), or stderr in short. This is achieved by
+**NOTE! LEST WE FORGET!** The procedure for printing the data on the VSC terminal panel requires we specify the output as [standard error stream](https://en.wikipedia.org/wiki/Standard_streams), or stderr in short. This is achieved by
 
 ```python
 print(cl.reflected_light_intensity, end=' ', file = stderr)
@@ -22,15 +22,15 @@ print(cl.reflected_light_intensity, end=' ', file = stderr)
 
 This is used in [HeyColor.py](HeyColor.py).
 
-*SECOND NOTE!* Upon checking EV3 page for instructions make sure you have the instruction for the _matching_ version of Python. For example, today we used [sensor manual](https://sites.google.com/site/ev3devpython/learn_ev3_python/using-sensors).
+**SECOND NOTE!** Upon checking EV3 page for instructions make sure you have the instruction for the _matching_ version of Python. For example, today we used [sensor manual](https://sites.google.com/site/ev3devpython/learn_ev3_python/using-sensors).
 
 ## 8.6.2019
 We are using [EV3 Python 2 manual (using motors)](https://sites.google.com/site/ev3devpython/learn_ev3_python/using-motors) as a useful resource.
-We have finally removed the old soundbyte files from the ev3 brick.
+We have finally removed the old soundbyte files from the EV3 brick.
 We were able to incorporate the infrared proximity sensor to the eevee chassis.
 After a myriad of trial-and-error test runs, we were able to get the the eevee robot to react and respond to obstacles. 
 
-Notes: Proximity of 40 is 30cm, the ev3 brick needs to be connected and visual code rebooted to make connection. 
+Notes: Proximity of 40 is 30 cm, the EV3 brick needs to be connected and visual code rebooted to make connection. 
 
 Suggestions have been made to incorporate the pressure sensor for a "Secondary protocol program".  
 
