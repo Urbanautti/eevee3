@@ -11,6 +11,6 @@ from ev3dev2.motor import MoveSteering, OUTPUT_A, OUTPUT_B
 brick.sound.file(SoundFile.FANFARE)
 # Toinen idea steeringin kautta
 steering_pari = MoveSteering(OUTPUT_A,OUTPUT_B)
-steer_pair.on_for_rotations(steering=-20, speed=75, rotations=10)
+steering_pari.on_for_rotations(steering=-20, speed=-75, rotations=10)
 brick.sound.file(SoundFile.STOP)
 
