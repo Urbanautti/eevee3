@@ -9,10 +9,11 @@ brick.sound.file(SoundFile.HELLO)
 
 cl = ColorSensor()
 
-cl.mode='COL-REFLECT'
+cl.mode='COL-AMBIENT'
 
 brick.sound.file(SoundFile.HELLO)
 
 while True: 
-    print(cl.reflected_light_intensity, end=' ', file = stderr)
+    print(cl.ambient_light_intensity, end=' ', file = stderr)
+    #    print(cl.reflected_light_intensity, end=' ', file = stderr)
     sleep(1)
