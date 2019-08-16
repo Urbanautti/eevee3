@@ -7,6 +7,9 @@
 * Current set of batteries (as of 26.07.2019) is still functional)
 * Next set of batteries will be provided by Urbanautti.
 
+## 16.8.2019
+
+We did something... but what? 🤔
 
 ## 25-26.7.2019
 
