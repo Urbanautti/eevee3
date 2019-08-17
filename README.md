@@ -7,6 +7,17 @@
 * Current set of batteries (as of 26.07.2019) is still functional)
 * Next set of batteries will be provided by Urbanautti.
 
+## 16.8.2019 
+
+We had a success with trying out the color sensor with another mode. We tested the sensors COL-AMBIENT mode which measures the intesity of surrounding light.
+
+Although the figure for a normally lit room varies between 1 and 2 in the sensor readings, the sensor is able to distinguish between dark and bright. 
+
+We ran a test, where the "Eevee" robot unit ran in a bright environment with both engines running, if the run became dark the unit stopped and rotated around 360 degrees. 
+
+The aforementioned test was a success. 
+
+**NOTE**! The color sensor has different led colors. In COL-REFLECT the led is red and in COL-AMBIENT mode the led is blue 
 
 ## 25-26.7.2019
 
